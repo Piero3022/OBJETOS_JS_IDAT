@@ -36,6 +36,41 @@ console.log(car.startEngine());
 console.log(car.stopEngine());
 
 
+//___________________________________________________________________________________________________
+
+for (let index = 0; index < 10; index += 2) {
+
+    console.log(index);
+}
+
+let n = 0;
+while (n < 10) {
+    console.log(n);
+    n++;
+}
+
+console.log(n);
+
+//__________________________ EJERCICIO FIZZ BUZZ _________________
+
+for (let index = 1; index <= 30; index++) {
+    if (index % 3 === 0 && index % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (index % 3 === 0) {
+        console.log("Fizz");
+    } else if (index % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(index);
+    }
+}
+
+
+
+
+
+//index += 2
+// index = index +2
 
 
 
